@@ -1,5 +1,6 @@
+//adds an event Listener to the object
 document.addEventListener("DOMContentLoaded", function () {
-    // Your original code
+    
   
     // Kids data and related functions
     let kidsData = []; // Store all kids data
