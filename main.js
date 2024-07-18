@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //An array is taken as an argument.
     function displayKids(kidsData) {
       const kidsContainer = document.getElementById("kidsContainer");//A variable is assigned from the HTML element.
-      kidsContainer.innerHTML = "";
+      kidsContainer.innerHTML = "";//An empty string from the HTML element is set clearing its contents.
       kidsData.forEach((kid) => {
         const kidElement = document.createElement("div");
         kidElement.classList.add("kid");
