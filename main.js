@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
       kidsContainer.innerHTML = "";//An empty string from the HTML element is set clearing its contents.
         
       kidsData.forEach((kid) => {//Executes the function of each element in the array.
-        const kidElement = document.createElement("div");
-        kidElement.classList.add("kid");
+        const kidElement = document.createElement("div");//creates new HTML and assigns it a variable.
+        kidElement.classList.add("kid");//Adds the CSS class.
         kidElement.innerHTML = `
           <img src="${kid.image}" alt="${kid.name}" style="width: 300px; height: 200px;">
           <p>Name: ${kid.name}</p>
