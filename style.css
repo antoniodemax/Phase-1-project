@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+:root {
+    --split-landing-container-bg-color: #333;
+    --split-landing-left-bg-color: rgba(223, 39, 39, 0.7);
+    --split-landing-left-button-hover-color: rgba(161, 11, 11, 0.3);
+    --split-landing-right-bg-color: rgba(43, 43, 43, 0.8);
+    --split-landing-right-button-hover-color: rgba(92, 92, 92, 0.3);
+    --split-landing-hover-width: 75%;
+    --split-landing-other-width: 25%;
+    --split-landing-speed: 1000ms;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family:  sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1476111021705-ac3b3304fe20?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    position: relative;
+    width: 100%;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  
+  .navigation {
+    margin-bottom: 20px;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navigation ul li {
+    margin-left: 20px;
+  }
+  
+  .navigation ul li:first-child {
+    margin-left: 0;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: #bfc21c;
+  }
+  .navigation ul li a:hover {
+    text-decoration: underline;
+    color: #5416ff;
+    transition: background-color 3s ease-in;
+  }
+  
+  /* TEXT SECTION */
+  .text{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    padding: 40px;
+    color: #FFC916;
+    max-width: 800px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+    font-weight: 800;
+    color: #1641ff;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .text h3
+  {
+    font-size: 2em;
+    font-weight: 700;
+    color: #1625ff;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+  .text p
+  {
+    font-size: 1.1em;
+    color: #1625ff;
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 700px;
+  }
+  
+  /* ABOUT  SECTION */
+  #about-header{
+    text-align: center;
+    margin: 20px 0 ;
+    color: #05003D;
+    font-size: 2em;
+    font-weight: 700;
+    background-color: #FFC916;
+  }
+  
+  .caption h3{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #05003D;
+    background-color: #FFC916;
+  }
+  
+  .caption p{
+  color: #FFC916;
+  }
+  
+  /* PROCESS SECTION */
+  #adoption-process {
+    background-color: #4c1fbe;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .process-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .process-container h2 {
+    text-align: center;
+    color: #05003D;
+    margin-bottom: 30px;
+  }
+  
+  .step {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .step img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 9px 7px 8px rgba(0, 0, 0, 0.572);
+  }
+  
+  .step-details h3 {
+    color: #05003D;
+    margin-top: 0;
+  }
+  
+  .step-details p {
+    color: hsl(59, 69%, 59%); 
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* CHILD HUB SECTION */
+  #children-hub{
+    background-color: #efff16;
+  }
+  #kidsContainer{
+    padding: 40px 90px;
+  }
+  .hub-header{
+    text-align: center;
+    margin: 20px 0 ;
+    color: #05003D;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  .hub-form-div{
+    text-align: center;
+  }
+  /* IMAGES SECTOR */
+  
+  .hub-form-div label {
+    margin-right: 10px;
+  }
+  
+  .hub-form-div input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .kids-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-auto-rows: 400px; 
+    gap: 20px; 
+    padding: 20px; /* Padding around the grid */
+    overflow: hidden; 
+  }
+  
+  .kids-image img {
+    max-width: 100%; 
+    max-height: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    box-shadow: 9px 7px 8px rgba(0, 0, 0, 0.572);
+  }
+  .like-button{
+    background-color: #05003D;
+    border: none;
+    padding: 10px 20px;
+    color: #f9f9f9;
+  }
+  .like-button:hover{
+    background-color: #f9f9f9;
+    color: #05003D;
+    border-radius: 10px;
+    transition: background-color 1s ease-in;
+  }
+  .begin-button{
+    background-color: #05003D;
+    border: none;
+    padding: 10px 20px;
+    color: #f9f9f9;
+  }
+  .begin-button:hover{
+    background-color: #f9f9f9;
+    color: #05003D;
+    border-radius: 10px;
+    transition: background-color 1s ease-in;
+  }
+  
+  #acme-container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    
+  }
+  
+  
+  .acme-brand {
+    text-align: center;
+  }
+  
+  .acme-brand span {
+    color: hsl(55, 55%, 54%);
+  }
+  
+  .acme-wrapper {
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+  }
+  
+  .acme-wrapper > * {
+    padding: 1em;
+  }
+  
+  /* Company styles */
+  .acme-company-info {
+    background: #ffe416;
+  }
+  
+  .acme-company-info h3, .acme-company-info ul {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  
+  
+  .acme-contact {
+    background: #f9feff;
+  }
+  
+  /* Form styles */
+  .acme-contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .acme-contact form label {
+    display: block;
+  }
+  
+  .acme-contact form p {
+    margin: 0;
+  }
+  
+  .acme-contact form .acme-full {
+    grid-column: 1 / 3;
+  }
+  
+  .acme-contact form button, .acme-contact form input, .acme-contact form textarea {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #c9e6ff;
+  }
+
+  .acme-container h1 {
+    text-align: center;
+  }
+  
+  .acme-contact form button {
+    background: #c5ff16;
+    border: none;
+    text-transform: uppercase;
+  }
+  
+  .acme-contact form button:hover, .acme-contact form button:focus {
+    background: hsl(170, 100%, 12%);
+    color: #cbc0c0;
+    outline: 0;
+    transition: background-color 1s ease-in;
+  }
+  
+  /* SPLIT LANDING PAGE */
+  
+  
+  .split-landing-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: var(--split-landing-container-bg-color);
+  }
+  
+  .split-landing-container h1{
+      font-size: 3rem;
+      color: #fff;
+      position: absolute;
+      left: 50%;
+      top: 20%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+  }
+  
+  
+  .split-landing-section {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .split-landing-left {
+    left: 0;
+    background: url('assets/non-explicit-image-child-abuse.jpg') center center no-repeat;
+    background-size: cover;
+  }
+  
+  .split-landing-left:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--split-landing-left-bg-color);
+  }
+  
+  .split-landing-right {
+    right: 0;
+    background: url('assets/medium-shot-smiley-family-with-tablet.jpg') center center no-repeat;
+    background-size: cover;
+  }
+  
+  .split-landing-right:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--split-landing-right-bg-color);
+  }
+  
+  .split-landing-button {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    height: 2.5rem;
+    padding-top: 1.3rem;
+    width: 15rem;
+    text-align: center;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transform: translateX(-50%);
+  }
+  
+  .split-landing-left .split-landing-button:hover {
+    background-color: var(--split-landing-left-button-hover-color);
+    border-color: var(--split-landing-left-button-hover-color);
+  }
+  
+  .split-landing-right .split-landing-button:hover {
+    background-color: var(--split-landing-right-button-hover-color);
+    border-color: var(--split-landing-right-button-hover-color);
+  }
+  
+  .split-landing-section,
+  .split-landing-right:before,
+  .split-landing-left:before {
+    transition: var(--split-landing-speed) all ease-in-out;
+  }
+  
+  .split-landing-hover-left .split-landing-left {
+    width: var(--split-landing-hover-width);
+  }
+  
+  .split-landing-hover-left .split-landing-right {
+    width: var(--split-landing-other-width);
+  }
+  
+  .split-landing-hover-left .split-landing-right:before {
+    z-index: 2;
+  }
+  
+  .split-landing-hover-right .split-landing-right {
+    width: var(--split-landing-hover-width);
+  }
+  
+  .split-landing-hover-right .split-landing-left {
+    width: var(--split-landing-other-width);
+  }
+  
+  .split-landing-hover-right .split-landing-left:before {
+    z-index: 2;
+  }
+  
+  @media (max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+    }
+  
+    .split-landing-button {
+        width: 12rem;
+    }
+  }
+  
+  @media (max-height: 700px) {
+    .split-landing-button {
+        top: 70%;
+    }
+  }
+  
+  
+  /* Large screens media query */
+  @media (min-width: 700px) {
+    .acme-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+  
+    .acme-wrapper > * {
+        padding: 2em;
+    }
+  
+    .acme-company-info h3, .acme-company-info ul, .acme-brand {
+        text-align: left;
+    }
+  }
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .kids-image {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+  }

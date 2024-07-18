@@ -1,0 +1,124 @@
+{
+    "kids": [
+      {
+        "id": "1",
+        "name": "Anthony Onyango",
+        "age": 5,
+        "height": "3'5\"",
+        "county": "Nairobi",
+        "hobbies": ["Drawing", "Soccer"],
+        "image": "https://images.unsplash.com/photo-1720048171098-dba33b2c4806?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+        "likes": 0
+      },
+      {
+        "id": "2",
+        "name": "Flavian Khadzu",
+        "age": 6,
+        "height": "3'2\"",
+        "county": "Nairobi",
+        "hobbies": ["Reading", "Cycling"],
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "likes": 0
+      },
+      {
+        "id": "3",
+        "name": "Foziah Arienda",
+        "age": 4,
+        "height": "3'0\"",
+        "county": "Nairobi",
+        "hobbies": ["Singing", "Painting"],
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "likes": 0
+      },
+      {
+        "id": "4",
+        "name": "Mary Adhiambo",
+        "age": 7,
+        "height": "3'4\"",
+        "county": "Nakuru",
+        "hobbies": ["Dancing", "Swimming"],
+        "image": "https://images.unsplash.com/photo-1588186593114-e7b26b2890b5?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "likes": 0
+      },
+      {
+        "id": "5",
+        "name": "Tabby Njoki",
+        "age": 5,
+        "height": "3'1\"",
+        "county": "Nakuru",
+        "hobbies": ["Chess", "Gardening"],
+        "image": "https://images.unsplash.com/photo-1595561579181-263fe6175b73?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGtpZHMlMjBwaG90b3N8ZW58MHx8MHx8fDA%3D",
+        "likes": 0
+      },
+      {
+        "id": "6",
+        "name": "Natasha Thuku",
+        "age": 6,
+        "height": "3'3\"",
+        "county": "Nakuru",
+        "hobbies": ["Cooking", "Hiking"],
+        "image": "https://images.unsplash.com/photo-1497881807663-38b9a95b7192?q=80&w=724&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "likes": 0
+      },
+      {
+        "id": "7",
+        "name": "Victoria Rubadiri",
+        "age": 4,
+        "height": "2'11\"",
+        "county": "Kisumu",
+        "hobbies": ["Fishing", "Video Games"],
+        "image": "https://images.unsplash.com/photo-1559425309-bf0018a09d01?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "likes": 0
+      },
+      {
+        "id": "8",
+        "name": "Alpholine Achieng",
+        "age": 6,
+        "height": "3'0\"",
+        "county": "Kisumu",
+        "hobbies": ["Playing Guitar", "Crafting"],
+        "image": "https://media.istockphoto.com/id/1270951191/photo/portrait-of-girl-enjoying-of-freedom-fnd-summer-ending-coronavirus-quarantine-out-of-covid-19.jpg?s=612x612&w=is&k=20&c=ldMLEUL7wHluXfCYEVh5uTgVQqai5GWoMmA8PBsdxRw=",
+        "likes": 0
+      },
+      {
+        "id": "9",
+        "name": "Elizabeth Nafula",
+        "age": 7,
+        "height": "3'2\"",
+        "county": "Kisumu",
+        "hobbies": ["Basketball", "Cooking"],
+        "image": "https://images.unsplash.com/photo-1456439663599-95b042d50252?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "likes": 0
+      },
+      {
+        "id": "10",
+        "name": "Sophia Wanja",
+        "age": 3,
+        "height": "2'9\"",
+        "county": "Mombasa",
+        "hobbies": ["Running", "Painting"],
+        "image": "https://images.unsplash.com/photo-1509503831681-6f35b8b7c671?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "likes": 0
+      },
+      {
+        "id": "11",
+        "name": "Keith Mwai",
+        "age": 5,
+        "height": "3'0\"",
+        "county": "Mombasa",
+        "hobbies": ["Reading", "Soccer"],
+        "image": "https://images.unsplash.com/photo-1467307983825-619715426c70?q=80&w=777&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "likes": 0
+      },
+      {
+        "id": "12",
+        "name": "Aisha Mohamed",
+        "age": 4,
+        "height": "2'11\"",
+        "county": "Mombasa",
+        "hobbies": ["Drawing", "Dancing"],
+        "image": "https://images.unsplash.com/photo-1553179909-4dbbe843479e?q=80&w=811&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "likes": 0
+      }
+    ]
+  }
