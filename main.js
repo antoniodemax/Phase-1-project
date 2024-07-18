@@ -2,8 +2,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     
   
-    // Kids data and related functions
-    let kidsData = []; // Store all kids data
+    // Declares an empty array
+    let kidsData = []; // Store all kids data fetched from the endpoint
   
     // Function to fetch kids data from the specified endpoint
     async function fetchKids() {
