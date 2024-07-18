@@ -1,12 +1,11 @@
-//adds an event Listener to the object
+//adds an event Listener to the object.
 document.addEventListener("DOMContentLoaded", function () {
     
+    // Declares an empty array.
+    let kidsData = []; // Store all kids data fetched from the endpoint.
   
-    // Declares an empty array
-    let kidsData = []; // Store all kids data fetched from the endpoint
-  
-    // Function to fetch kids data from the specified endpoint
-    async function fetchKids() {
+    // Asynchronous function is being declared
+    async function fetchKids() {//fetches kids data from the remote endpoint.
       try {
         const response = await fetch("https://project-backend-eta.vercel.app/kids");
         kidsData = await response.json();
