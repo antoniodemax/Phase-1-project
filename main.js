@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       try {
           //Requests kids' data from a specific endpoint.
         const response = await fetch("https://project-backend-eta.vercel.app/kids");
-        kidsData = await response.json();
+        kidsData = await response.json();//kids' data array is assigned.
         displayKids(kidsData);
       } catch (error) {
         console.error("Error fetching kids:", error);
