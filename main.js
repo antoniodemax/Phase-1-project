@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to display kids in the browser.
     //An array is taken as an argument.
     function displayKids(kidsData) {
-      const kidsContainer = document.getElementById("kidsContainer");
+      const kidsContainer = document.getElementById("kidsContainer");//A variable is assigned from the HTML element.
       kidsContainer.innerHTML = "";
       kidsData.forEach((kid) => {
         const kidElement = document.createElement("div");
