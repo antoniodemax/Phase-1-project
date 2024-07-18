@@ -54,11 +54,13 @@ document.addEventListener("DOMContentLoaded", function () {
       likeButtons.forEach((button) => {
           //Adds event listener to the 'button' element when clicked.
         button.addEventListener("click", () => {
-            
+
+            //Assigns a kid variable extracted from the 'data-id'.
           const kidId = button.getAttribute("data-id");
           const kid = kidsData.find((kid) => kid.id === kidId);
+            //Increases the 'likes' property of the kid.
           kid.likes++;
-          button.textContent = `Like (${kid.likes})`;
+          button.textContent = `Like (${kid.likes})`;//reflects a newlike count.
         });
       });
     }
@@ -68,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
       alert("Thank you for contacting us. We will get back to you as soon as possible.");
     });
   
-    // Fetch kids data from the specified endpoint when the page loads
+    // 
     fetchKids();
   
     // Get the search input element
