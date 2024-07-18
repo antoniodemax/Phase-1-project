@@ -36,10 +36,14 @@ document.addEventListener("DOMContentLoaded", function () {
           <button class="like-button" data-id="${kid.id}">Like (${kid.likes})</button>
           <button class="begin-button">BEGIN PROCESS</button>
         `;
-        kidsContainer.appendChild(kidElement);
+        kidsContainer.appendChild(kidElement);//Appends the 'kidElement' to the 'kidsContainer' element.
   
-        const beginButton = kidElement.querySelector(".begin-button");
-        beginButton.addEventListener("click", function () {
+                  //A variable is assigned when HTML element with the class 'begin-button' is selected.
+          const beginButton = kidElement.querySelector(".begin-button");
+
+          //Adds an event listener and executes a function when button is clicked.
+         beginButton.addEventListener("click", function () {
+             
           alert(`Thank you for choosing ${kid.name}. You can now begin your process.`);
         });
       });
