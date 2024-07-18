@@ -70,18 +70,24 @@ document.addEventListener("DOMContentLoaded", function () {
       alert("Thank you for contacting us. We will get back to you as soon as possible.");
     });
   
-    // 
+    // Fetches kids' data from the remote endpoint.
     fetchKids();
   
     // Get the search input element
     const searchInput = document.getElementById("searchInput");
   
     // Add event listener for input change
-    searchInput.addEventListener("input", function () {
+    searchInput.addEventListener("input", function () {// Adds an event listener when the input value changes.
+
+        //Variable is assigned 'searchString'.
       const searchString = searchInput.value.trim().toLowerCase();
+        
+        //Filters 'kidsData' array t 
       const filteredKids = kidsData.filter((kid) =>
         kid.county.toLowerCase().includes(searchString)
       );
+
+        //An array is passed as an argument.
       displayKids(filteredKids);
     });
   
@@ -108,5 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
       container.classList.remove("split-landing-hover-right");
     });
   }
+
+    //Adds the hover effects to split-screen element.
   splitScreen();
   });
