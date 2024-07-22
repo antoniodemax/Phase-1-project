@@ -13,7 +13,7 @@ Modern Web Browser
 Stable internet connection
 
 # Running Application
-Open the [db. json](https://phase-1-project-xi.vercel.app/)file in the modern web browser.
+Open the [db. json](https://antoniodemax.github.io/Phase-1-project/)file in the modern web browser.
 The endpoint will fetch and display the kid's data on the page.
 
 # Functionality
